@@ -1,20 +1,11 @@
 import React from 'react';
 import './App.css';
-import Square from './components/Square.js';
+import Board from './components/Board.js';
 
 function App() {
   return (
     <div>
-      <Square
-        active={true}
-        number="1"
-        letter="A"
-      />
-      <Square
-        active={false}
-        number="1"
-        letter="A"
-      />
+      <Board />
     </div>
   );
 }
