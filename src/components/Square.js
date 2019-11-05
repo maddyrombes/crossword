@@ -11,17 +11,17 @@ const OneSquare = styled.div(( props ) => ({
 }));
 
 const Number = styled.p((props) => ({
-  display: props.active ? 'block' : 'none',
+  display: props.active ? 'none' : 'block',
   fontSize: '10px',
-  margin: '3px auto auto 3px',
+  margin: '2px auto auto 2px',
   width: '5px',
   padding: '0'
 }));
 
 const Letter = styled.p((props) => ({
-  display: props.active ? 'block' : 'none',
+  display: props.active ? 'none' : 'block',
   fontSize: '25px',
-  margin: '3px 7px 3px 4px',
+  margin: '6px 7px 3px 4px',
 }));
 
 function Square({ active, number, letter }) {

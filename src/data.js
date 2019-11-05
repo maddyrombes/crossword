@@ -317,458 +317,906 @@ const puzzle1 = {
     ]
   },
   grid: [
-    "S",
-    "A",
-    "G",
-    null,
-    "O",
-    "V",
-    "A",
-    "L",
-    null,
-    "E",
-    "F",
-    "F",
-    "O",
-    "R",
-    "T",
-    "T",
-    "E",
-    "A",
-    null,
-    "P",
-    "A",
-    "P",
-    "A",
-    null,
-    "M",
-    "A",
-    "I",
-    "D",
-    "E",
-    "N",
-    "E",
-    "G",
-    "G",
-    "H",
-    "U",
-    "N",
-    "T",
-    "S",
-    null,
-    "I",
-    "M",
-    "N",
-    "E",
-    "X",
-    "T",
-    "L",
-    "E",
-    "G",
-    "O",
-    "S",
-    null,
-    null,
-    "E",
-    "E",
-    "N",
-    "I",
-    "E",
-    null,
-    null,
-    null,
-    "M",
-    "A",
-    "L",
-    "T",
-    null,
-    "B",
-    "A",
-    "R",
-    "R",
-    "E",
-    "L",
-    "R",
-    "A",
-    "C",
-    "E",
-    "O",
-    "N",
-    "E",
-    "S",
-    "E",
-    "L",
-    "F",
-    null,
-    "A",
-    "M",
-    "Y",
-    null,
-    "B",
-    "O",
-    "X",
-    null,
-    null,
-    null,
-    "E",
-    "N",
-    "T",
-    "E",
-    "R",
-    null,
-    null,
-    "T",
-    "R",
-    "E",
-    "A",
-    "T",
-    null,
-    "H",
-    "E",
-    "A",
-    "D",
-    "S",
-    "W",
-    "I",
-    "L",
-    "L",
-    "R",
-    "O",
-    "L",
-    "L",
-    null,
-    "M",
-    "O",
-    "T",
-    "T",
-    "O",
-    null,
-    null,
-    "G",
-    "O",
-    "T",
-    "E",
-    "M",
-    null,
-    null,
-    null,
-    "O",
-    "U",
-    "T",
-    null,
-    "F",
-    "A",
-    "B",
-    null,
-    "C",
-    "R",
-    "E",
-    "A",
-    "T",
-    "O",
-    "R",
-    "D",
-    "R",
-    "U",
-    "M",
-    "S",
-    "T",
-    "I",
-    "C",
-    "K",
-    "S",
-    null,
-    "N",
-    "O",
-    "N",
-    "E",
-    null,
-    null,
-    null,
-    "E",
-    "T",
-    "H",
-    "N",
-    "O",
-    null,
-    null,
-    "A",
-    "I",
-    "O",
-    "L",
-    "I",
-    "T",
-    "I",
-    "P",
-    "T",
-    "O",
-    "E",
-    null,
-    "L",
-    "O",
-    "G",
-    "C",
-    "A",
-    "B",
-    "I",
-    "N",
-    "I",
-    "N",
-    "B",
-    "O",
-    "R",
-    "N",
-    null,
-    "T",
-    "H",
-    "A",
-    "I",
-    null,
-    "A",
-    "N",
-    "I",
-    "E",
-    "N",
-    "J",
-    "O",
-    "Y",
-    "S",
-    null,
-    "S",
-    "O",
-    "L",
-    "D",
-    null,
-    "D",
-    "E",
-    "N"
-  ],
-  gridnums: [
-    1,
-    2,
-    3,
-    0,
-    4,
-    5,
-    6,
-    7,
-    0,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    0,
-    0,
-    0,
-    15,
-    0,
-    0,
-    0,
-    0,
-    16,
-    0,
-    0,
-    0,
-    0,
-    0,
-    17,
-    0,
-    0,
-    18,
-    0,
-    0,
-    0,
-    0,
-    0,
-    19,
-    0,
-    0,
-    0,
-    0,
-    0,
-    20,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    21,
-    22,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    23,
-    0,
-    0,
-    0,
-    0,
-    24,
-    25,
-    0,
-    0,
-    0,
-    0,
-    0,
-    26,
-    27,
-    28,
-    29,
-    0,
-    0,
-    0,
-    30,
-    0,
-    0,
-    0,
-    31,
-    0,
-    0,
-    0,
-    32,
-    0,
-    0,
-    0,
-    0,
-    0,
-    33,
-    0,
-    0,
-    0,
-    34,
-    0,
-    0,
-    35,
-    36,
-    0,
-    0,
-    0,
-    0,
-    37,
-    38,
-    0,
-    0,
-    0,
-    0,
-    0,
-    39,
-    40,
-    0,
-    0,
-    0,
-    0,
-    0,
-    41,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    42,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    43,
-    0,
-    0,
-    0,
-    44,
-    45,
-    46,
-    0,
-    47,
-    0,
-    0,
-    0,
-    48,
-    49,
-    50,
-    51,
-    0,
-    0,
-    52,
-    0,
-    0,
-    0,
-    53,
-    0,
-    0,
-    0,
-    54,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    55,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    56,
-    0,
-    0,
-    0,
-    0,
-    57,
-    58,
-    59,
-    0,
-    0,
-    0,
-    0,
-    60,
-    61,
-    62,
-    0,
-    0,
-    0,
-    0,
-    0,
-    63,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    64,
-    0,
-    0,
-    0,
-    0,
-    65,
-    0,
-    0,
-    66,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    67,
-    0,
-    0,
-    0,
-    0,
-    68,
-    0,
-    0
+    {
+      letter: "S",
+      num: 1
+    },
+    {
+      letter: "A",
+      num: 2
+    },
+    {
+      letter: "G",
+      num: 3
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "O",
+      num: 4
+    },
+    {
+      letter: "V",
+      num: 5
+    },
+    {
+      letter: "A",
+      num: 6
+    },
+    {
+      letter: "L",
+      num: 7
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "E",
+      num: 8
+    },
+    {
+      letter: "F",
+      num: 9
+    },
+    {
+      letter: "F",
+      num: 10
+    },
+    {
+      letter: "O",
+      num: 11
+    },
+    {
+      letter: "R",
+      num: 12
+    },
+    {
+      letter: "T",
+      num: 13
+    },
+    {
+      letter: "T",
+      num: 14
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: null,
+      num: 15
+    },
+    {
+      letter: "P",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "P",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "M",
+      num: 16
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "D",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "E",
+      num: 17
+    },
+    {
+      letter: "G",
+      num: null
+    },
+    {
+      letter: "G",
+      num: null
+    },
+    {
+      letter: "H",
+      num: 18
+    },
+    {
+      letter: "U",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "S",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "I",
+      num: 19
+    },
+    {
+      letter: "M",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "X",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "L",
+      num: 20
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "G",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "S",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "E",
+      num: 21
+    },
+    {
+      letter: "E",
+      num: 22
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "M",
+      num: 23
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "B",
+      num: 24
+    },
+    {
+      letter: "A",
+      num: 25
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "A",
+      num: 26
+    },
+    {
+      letter: "C",
+      num: 27
+    },
+    {
+      letter: "E",
+      num: 28
+    },
+    {
+      letter: "O",
+      num: 29
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "S",
+      num: 30
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: "F",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "A",
+      num: 31
+    },
+    {
+      letter: "M",
+      num: null
+    },
+    {
+      letter: "Y",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "B",
+      num: 32
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "X",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "E",
+      num: 33
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "R",
+      num: 34
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "T",
+      num: 35
+    },
+    {
+      letter: "R",
+      num: 36
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "H",
+      num: 37
+    },
+    {
+      letter: "E",
+      num: 38
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "D",
+      num: null
+    },
+    {
+      letter: "S",
+      num: null
+    },
+    {
+      letter: "W",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "L",
+      num: 39
+    },
+    {
+      letter: "L",
+      num: 40
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "M",
+      num: 41
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "G",
+      num: 42
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "M",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "O",
+      num: 43
+    },
+    {
+      letter: "U",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "F",
+      num: 44
+    },
+    {
+      letter: "A",
+      num: 45
+    },
+    {
+      letter: "B",
+      num: 46
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "C",
+      num: 47
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "T",
+      num: 48
+    },
+    {
+      letter: "O",
+      num: 49
+    },
+    {
+      letter: "R",
+      num: 50
+    },
+    {
+      letter: "D",
+      num: 51
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "U",
+      num: null
+    },
+    {
+      letter: "M",
+      num: 52
+    },
+    {
+      letter: "S",
+      num: null
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "C",
+      num: 53
+    },
+    {
+      letter: "K",
+      num: null
+    },
+    {
+      letter: "S",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "N",
+      num: 54
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "E",
+      num: 55
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "H",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "A",
+      num: 56
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "T",
+      num: 57
+    },
+    {
+      letter: "I",
+      num: 58
+    },
+    {
+      letter: "P",
+      num: 59
+    },
+    {
+      letter: "T",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: null,
+      num:null 
+    },
+    {
+      letter: "L",
+      num: 60
+    },
+    {
+      letter: "O",
+      num: 61
+    },
+    {
+      letter: "G",
+      num: 62
+    },
+    {
+      letter: "C",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "B",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "I",
+      num: 63
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "B",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "R",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "T",
+      num: 64
+    },
+    {
+      letter: "H",
+      num: null
+    },
+    {
+      letter: "A",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "A",
+      num: 65
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "I",
+      num: null
+    },
+    {
+      letter: "E",
+      num: 66
+    },
+    {
+      letter: "N",
+      num: null
+    },
+    {
+      letter: "J",
+      num: null
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "Y",
+      num: null
+    },
+    {
+      letter: "S",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "S",
+      num: 67
+    },
+    {
+      letter: "O",
+      num: null
+    },
+    {
+      letter: "L",
+      num: null
+    },
+    {
+      letter: "D",
+      num: null
+    },
+    {
+      letter: null,
+      num: null
+    },
+    {
+      letter: "D",
+      num: 68
+    },
+    {
+      letter: "E",
+      num: null
+    },
+    {
+      letter: "N",
+      num: null
+    }
   ]
 }
 

@@ -8,7 +8,8 @@ const PlayingBoard = styled.div((props) => ({
   display: 'flex',
   flexWrap: 'wrap',
   width: '555px',
-  margin: '20px'
+  margin: '20px',
+  cursor: 'pointer'
 }));
 
 function Board() {
@@ -16,8 +17,9 @@ function Board() {
     <PlayingBoard>
       {puzzle1.grid.map(sq => (
         <Square 
-          active={sq ? true : false}
-          letter={sq}
+          active={sq.letter ? true : false}
+          letter={sq.letter}
+          number={sq.num}
         />
       ))}
     </PlayingBoard>
