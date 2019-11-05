@@ -1,6 +1,7 @@
 const puzzle1 = {
   id: 1,
   title: "NY TIMES, MON, AUG 15, 2016",
+  author: 'Sam Trabucco',
   editor: "Will Shortz",
   size: {
     cols: 15,
@@ -163,7 +164,7 @@ const puzzle1 = {
         answer: "GAGGLE"
       },
       {
-        clue: "4. Numbered musical wor",
+        clue: "4. Numbered musical work",
         answer: "OPUS"
       },
       {

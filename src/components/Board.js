@@ -8,6 +8,7 @@ const PlayingBoard = styled.div((props) => ({
   display: 'flex',
   flexWrap: 'wrap',
   width: '555px',
+  height: '555px',
   margin: '20px',
   cursor: 'pointer'
 }));

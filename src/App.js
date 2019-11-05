@@ -10,12 +10,14 @@ const MainHome = styled.div(() => ({
 }));
 
 const H1 = styled.h1(() => ({
-  fontSize: '20px',
-  textAlign: 'center'
+  fontSize: '30px',
+  textAlign: 'center',
+  margin: '30px'
 }))
 
 const GameDiv = styled.div(() => ({
-  display: 'flex'
+  display: 'flex',
+  justifyContent: 'space-evenly'
 }));
 
 function App() {

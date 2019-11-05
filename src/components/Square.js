@@ -7,7 +7,7 @@ const OneSquare = styled.div(( props ) => ({
   height: '35px',
   border: '1px solid black',
   background: props.active ? 'white' : 'black',
-  display: 'flex'
+  display: 'flex',
 }));
 
 const Number = styled.p((props) => ({
